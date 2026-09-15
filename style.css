@@ -1,11 +1,28 @@
+h1 {
+  background-color: #695FBC;
+  color: #4FA8D8;
+}
 
-  h1{
-    background-color:#F38D8D ;
-    color: #D123B2;
-  }
-  a{
-    color:#02D0F5;
-  }
-  body {
-    background-color: #000FFF";
-  }
+a {
+  color: #71D1CC;
+}
+
+body {
+  background-color: #000FFF";
+
+}
+
+/* mengubah div menjadi tampilan kartu*/
+div {
+  background-color: #6591FF;
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+text-align: center;
+}
+div img{
+  border-radius: 50%;
+  border: 5px solid #0056b3;
+}
