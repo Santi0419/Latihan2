@@ -19,10 +19,27 @@ div {
   margin: 20px auto;
   padding: 20px;
   border-radius: 12px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
-text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  text-align: center;
 }
-div img{
+
+div img {
   border-radius: 50%;
-  border: 5px solid #0056b3;
+  border: 5px solid #001DB3;
+}
+
+.navigasi {
+  background-color: #8888CE;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.navigasi a {
+  text-decoration: none;
+}
+
+.navigasi .aktif {
+  font-weight: bold;
+  color: #D57C56;
 }
