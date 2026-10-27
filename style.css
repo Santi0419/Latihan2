@@ -25,7 +25,7 @@ div.kartu-profil {
 }
 div.kartu-profil img{
   border-radius: 50%;
-  border: 6px solid #2094D3;
+  border: 6px solid #4A5BDA;
 }
  
 .navigasi {
@@ -82,12 +82,12 @@ div.kartu-kontak {
 /*item galeri foto*/
 .galeri-item {
   width: 50%;
-  max-width: 90px;
+  max-width: 150px;
   margin: 10px;
   border-radius: 5px;
   display: inline-block;
   overflow: hidden;
-  background-color: #00000000;
+  background-color: #83EBFF;
 }
 
 .galeri-item img {
