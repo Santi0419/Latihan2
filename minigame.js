@@ -1,8 +1,16 @@
 //variabel untuk menyimpan potensi makan kucing 
 //dengan nilai awal nol(0)
 let porsi = 0
+ 
+// siapkan aset di variabel 
+let suaramakan  = new Audio("minigame/makan.mp3")
+let suaramain = new Audio("minigame/main.mp3")
+let suarariset = new Audio("minigame/raset.mp3")
 
 function berimakan() {
+  //efek suara makan 
+  suaramakan.currentTime =0
+  suaramakan.play()
   // 1 ambil teks dari input kotak teks
   let teksinput = document.getElementById('input-makanan').value
   // 2 ubah string menjadi angka 
@@ -40,11 +48,17 @@ function ajakmain() {
   // mengurangi porsi 1 jagn sampai negatif 
   if (porsi > 0) {
     porsi = porsi -1
+    suaramain.currentTime = 0
+    suaramain.play()
   }
 updateTampilan()
 }
+
 function reset() {
 porsi = 0
+suarariset.currentTime = 0
+suarariset.play()
+
 
 updateTampilan()
 }
